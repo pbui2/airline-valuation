@@ -1,0 +1,71 @@
+# Python environments, caches, and build output
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+.mypy_cache/
+.ruff_cache/
+.coverage*
+htmlcov/
+
+# Polytoken harness definitions and local snapshots are separate from this project
+/.polytoken/
+
+# Local environment and private credentials
+.env
+.env.*
+*.pem
+*.key
+*credentials*
+*secrets*
+
+# Private reviews and local SEC filing fixtures/artifacts
+/private-review/
+/sec-fixtures*/
+/filing-artifacts/
+/filing-artifacts-*/
+
+# Owner's review artifacts (untracked source-side work products)
+/review-artifacts/
+
+# Generated report and archive output directories
+/reports/
+/report-output/
+/archives/
+/archive-output/
+
+# Local workbook files and Office metadata (never stage any local *.xlsx)
+*.xlsx
+*.xlsm
+*.xlsb
+*.xlsx:Zone.Identifier
+# The original Damodaran template must never be staged in this public repo
+/fcffsimpleginzu.xlsx
+
+# Private example manifests/scenarios and draft-scenario fixtures
+/examples/*.json
+/examples/fy2025-evidence-review.xlsx
+/tests/fixtures/
+
+# Private policy drafts and review/policy documents (owner-only)
+/docs/policy-drafts/
+/docs/provisional-comment-review.md
+/docs/provisional-input-scenario.md
+/docs/evidence-reconciliation-2025.md
+/docs/ginzu-input-policy-v1.md
+/docs/ginzu-input-policy-v2.md
+/docs/southwest-input-review.md
+/docs/southwest-valuation-decision-packet.md
+/docs/workbook-map.md
+
+# Office temporary files and Windows download metadata
+~$*
+
+# Scratch and local run logs
+/scratch/
+*.log
+*.log.*

@@ -1,0 +1,199 @@
+{
+  "schema_version": 1,
+  "workbook": {
+    "filename": "fcffsimpleginzu.xlsx",
+    "sha256": "c6fd6bd3205e8ef4ecd2b9a01cf81077eaf7db2651d3d02ac03939cb64adabc9"
+  },
+  "worksheet": {
+    "name": "Cost of capital worksheet",
+    "part": "xl/worksheets/sheet10.xml",
+    "relationship_id": "rId10",
+    "xml_sha256": "8feff6f803557c169bf00068d41b9b6258fe37de27382e2dba22fdc39db907a4",
+    "formula_count": 217,
+    "canonical_formula_inventory_sha256": "b47284584245e43f3e6164a0ec1bc70e33940c3cbd44555604992f855f8a8473"
+  },
+  "detailed_route": {
+    "selector_cell": "B11",
+    "selector_value": "Detailed",
+    "route_cell": "B13",
+    "branch_cell": "E62",
+    "d62_formula": "B50/B49",
+    "d62_cell_xml_sha256": "069de4cfa70e478c83e299289b4899754fafa004238f97415afffeb2844ab57c"
+  },
+  "target_formula_cells": {
+    "Input sheet!B27": {"xml": "<c r=\"B27\" s=\"205\" t=\"e\"><f>I26</f><v>#DIV/0!</v></c>"},
+    "Input sheet!B28": {"xml": "<c r=\"B28\" s=\"206\"><f>B26</f><v>0</v></c>"},
+    "Input sheet!B32": {"xml": "<c r=\"B32\" s=\"207\"><f>B31</f><v>0</v></c>"}
+  },
+  "target_cells": {
+    "Input sheet!B27": {"staged_xml": "<c r=\"B27\" s=\"205\"><v>{value}</v></c>"},
+    "Input sheet!B28": {"staged_xml": "<c r=\"B28\" s=\"206\"><v>{value}</v></c>"},
+    "Input sheet!B32": {"staged_xml": "<c r=\"B32\" s=\"207\"><v>{value}</v></c>"}
+  },
+  "input_formula_dependents": {
+    "targets": [
+      "Input sheet!B26",
+      "Input sheet!B27",
+      "Input sheet!B28",
+      "Input sheet!B29",
+      "Input sheet!B30",
+      "Input sheet!B31",
+      "Input sheet!B32"
+    ],
+    "direct_formula_cells": [
+      "Stories to Numbers!C10",
+      "Stories to Numbers!C12",
+      "Stories to Numbers!C9",
+      "Stories to Numbers!D12",
+      "Stories to Numbers!D9",
+      "Stories to Numbers!E12",
+      "Valuation output!C2",
+      "Valuation output!C38",
+      "Valuation output!C4",
+      "Valuation output!D2",
+      "Valuation output!D38",
+      "Valuation output!D4",
+      "Valuation output!E4",
+      "Valuation output!F4",
+      "Valuation output!G4",
+      "Valuation output!H38",
+      "Valuation output!H4",
+      "Valuation output!I4",
+      "Valuation output!J4",
+      "Valuation output!K4",
+      "Valuation output!L4"
+    ],
+    "shared_or_array_formula_cells": [],
+    "formula_hashes": {
+      "Stories to Numbers!C10": "5cd445bc90f4fe41e7fbfe2bf86a3ec89adf3cd2970b2423bf66dd32db50533b",
+      "Stories to Numbers!C12": "ce0fc74dca6164e8b76c45b47ede172ca030abcfae68d80dc4b5ad6175e746ff",
+      "Stories to Numbers!C9": "40cb63e902fa28dcddda1b8c9f623117a7e47ca448dc2925b63566562315802c",
+      "Stories to Numbers!D12": "ce0fc74dca6164e8b76c45b47ede172ca030abcfae68d80dc4b5ad6175e746ff",
+      "Stories to Numbers!D9": "4fc7675a4b078799c4fe4ca3fc802ffbc355fa787c0f0ee3ecf67119e70f9357",
+      "Stories to Numbers!E12": "07ba1aa5288b3006642804354a166e254a7e2d4d275fe4348bf7da8cd0fc98ae",
+      "Valuation output!C2": "40cb63e902fa28dcddda1b8c9f623117a7e47ca448dc2925b63566562315802c",
+      "Valuation output!C38": "ce0fc74dca6164e8b76c45b47ede172ca030abcfae68d80dc4b5ad6175e746ff",
+      "Valuation output!C4": "5cd445bc90f4fe41e7fbfe2bf86a3ec89adf3cd2970b2423bf66dd32db50533b",
+      "Valuation output!D2": "4fc7675a4b078799c4fe4ca3fc802ffbc355fa787c0f0ee3ecf67119e70f9357",
+      "Valuation output!D38": "ce0fc74dca6164e8b76c45b47ede172ca030abcfae68d80dc4b5ad6175e746ff",
+      "Valuation output!D4": "2fcf8d1d6c558711a815f7969a0681659a440235f2c191a417d9c523d50cfa91",
+      "Valuation output!E4": "4fd51f1b76dedc0f30a73f9f3125216f05b91edb6b5f6cdb0525192e99ee7226",
+      "Valuation output!F4": "c47893a482458df2ba8cf6294db01cdfbbbd976fdbf9d88da88472b9ea4776f8",
+      "Valuation output!G4": "c8cf4287ece16cbe005255c94c8e32059ee595baebaa704da1653439e73486f2",
+      "Valuation output!H38": "07ba1aa5288b3006642804354a166e254a7e2d4d275fe4348bf7da8cd0fc98ae",
+      "Valuation output!H4": "908fcf6ad34e3de030790a10ff764d75cc291985d0bda820208e4e1ee77ef2a1",
+      "Valuation output!I4": "5c20b59b752f2a48e4a617aa3ca1d508b990f3d611ee537c25ee6a912f20dbec",
+      "Valuation output!J4": "3afd7fa79877fe15db79199551cb2254c6d0de28a0b5d57bdf7e6ea95544ac58",
+      "Valuation output!K4": "b40493fdd4a6ef2f25fe7fbe34a01483214675275d80153a4420972332cb50da",
+      "Valuation output!L4": "951ecbdf101b267c79a9416043de8f0f2a0e5c173afc4e173354fe9911c78dca"
+    },
+    "formula_attributes": {
+      "Valuation output!C2": {},
+      "Valuation output!D2": {},
+      "Valuation output!C4": {},
+      "Valuation output!D4": {},
+      "Valuation output!E4": {},
+      "Valuation output!F4": {},
+      "Valuation output!G4": {},
+      "Valuation output!H4": {},
+      "Valuation output!I4": {},
+      "Valuation output!J4": {},
+      "Valuation output!K4": {},
+      "Valuation output!L4": {},
+      "Valuation output!C38": {},
+      "Valuation output!D38": {},
+      "Valuation output!H38": {},
+      "Stories to Numbers!C9": {},
+      "Stories to Numbers!D9": {},
+      "Stories to Numbers!C10": {},
+      "Stories to Numbers!C12": {},
+      "Stories to Numbers!D12": {},
+      "Stories to Numbers!E12": {}
+    }
+  },
+  "route_audit": {
+    "formula_hashes": {
+      "B13": "b6fad7932c3e476be888a4b2c178e4598aa72b679bdac7f3f384aec2af3786ce",
+      "B23": "90afb31ac2c26af44c20fce0ada67639cc96754ed2367ae8ec62e8f81ac926b3",
+      "B27": "08f0d38d9ad738e7326cbfa1d5f43a69420e2d9af55ef8e305e60a944c5d118f",
+      "B37": "04343eb2f19de171c541b7e79f5930e4e8a97a32b220ace2b196abe469acf546",
+      "B60": "8276b6489067dd1cd382a4eb9760f0df79b1d2b672383ff0224cac15609ece52",
+      "C57": "1a2fc8240e205167ce61a199b16afdec0fdf17349a3d9fba245c2bff74cf073f",
+      "B62": "bf3cef340ccdc3ceaf2e06877335dd58d1e769d2b0a5f59c7c5bfb23ee03cf0a",
+      "C62": "0002ae384592af4e0c25a8527e2b6455327c3c9dcdc5e8e6344cdd2ab935e695",
+      "D62": "267622be255be17913230cf5ad04ebdec435a55f538ecbee1dc7ff8d79e9dba7",
+      "E62": "d38e6256a2d8b063c7fc76ed3815d54da4911214d3487c68d35e48edce18fee9",
+      "E60": "86c78c232b01f332b118672a7c2f86a37aa1ea8d6f9b34160dd09bdae2a5d277",
+      "B61": "5e1672190108d9d370b5c1f1c67ba76ef43fedef5ce45a9eea0bffa5a5395713",
+      "C61": "9b588e89606c52c1cf3fb6a5b585d51d416a805bccd569d2d1b3529c471e5adc",
+      "D61": "24bcf6eb2064d48702610325f4785e2eac9b4e0109d7e8e3b7cc13287e6eab68"
+    },
+    "industry": {
+      "sheet": "Industry Averages(US)",
+      "part": "xl/worksheets/sheet13.xml",
+      "key_cell": "A4",
+      "value_cell": "G4",
+      "key": "Air Transport",
+      "key_shared_index": 632,
+      "value": "0.75790381791186878"
+    },
+    "rating": {
+      "sheet": "Synthetic rating",
+      "part": "xl/worksheets/sheet7.xml",
+      "key_cell": "G52",
+      "value_cell": "H52",
+      "key": "Baa2/BBB",
+      "key_shared_index": 436,
+      "value": "1.1113E-2"
+    }
+  },
+  "lookups": {
+    "B23": {
+      "route": "B21=Single Business(US); VLOOKUP Input sheet!B8 in Industry Averages(US)!A2:G95, return column 7",
+      "status": "unverified",
+      "cached": "#N/A"
+    },
+    "B27": {
+      "route": "B25=Operating regions; reference K32",
+      "status": "unverified",
+      "cached": "#DIV/0!"
+    },
+    "B37": {
+      "route": "B33=Actual rating; formula includes Synthetic rating!G42:H56 lookup branch using B35",
+      "status": "unverified",
+      "cached": "#N/A"
+    }
+  },
+  "units_and_drivers": {
+    "B49": {
+      "observed": null,
+      "meaning": "D62 denominator candidate",
+      "status": "blank; source and units unknown"
+    },
+    "B50": {
+      "observed": null,
+      "meaning": "D62 numerator candidate",
+      "status": "blank; source and units unknown"
+    },
+    "B32": {
+      "observed": null,
+      "meaning": "maturity-year candidate",
+      "status": "not connected to D62"
+    },
+    "B35": {
+      "observed": null,
+      "meaning": "synthetic-rating lookup key candidate",
+      "status": "unverified"
+    },
+    "B38": {
+      "observed": "0",
+      "meaning": "tax rate input candidate",
+      "status": "unit/authority unverified"
+    }
+  },
+  "safety": {
+    "read_only": true,
+    "reference_expansion_limit": 512,
+    "unknown_dependencies_fail_closed": true
+  }
+}

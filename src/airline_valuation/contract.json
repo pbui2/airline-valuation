@@ -1,0 +1,705 @@
+{
+  "contract_version": 2,
+  "source_file": "fcffsimpleginzu.xlsx",
+  "sha256": "c6fd6bd3205e8ef4ecd2b9a01cf81077eaf7db2651d3d02ac03939cb64adabc9",
+  "sheet_order": [
+    "Input sheet",
+    "Valuation output",
+    "Stories to Numbers",
+    "Valuation as picture",
+    "Diagnostics",
+    "Option value",
+    "Synthetic rating",
+    "R& D converter",
+    "Operating lease converter",
+    "Cost of capital worksheet",
+    "Failure Rate worksheet",
+    "Country equity risk premiums",
+    "Industry Averages(US)",
+    "Industry Averages (Global)",
+    "Input Stat Distributioons",
+    "Trailing 12 month Worskheet",
+    "Answer keys"
+  ],
+  "sheets": {
+    "Input sheet": {
+      "sheet_id": "11",
+      "relationship_id": "rId1",
+      "part": "xl/worksheets/sheet1.xml"
+    },
+    "Valuation output": {
+      "sheet_id": "13",
+      "relationship_id": "rId2",
+      "part": "xl/worksheets/sheet2.xml"
+    },
+    "Stories to Numbers": {
+      "sheet_id": "28",
+      "relationship_id": "rId3",
+      "part": "xl/worksheets/sheet3.xml"
+    },
+    "Valuation as picture": {
+      "sheet_id": "32",
+      "relationship_id": "rId4",
+      "part": "xl/worksheets/sheet4.xml"
+    },
+    "Diagnostics": {
+      "sheet_id": "12",
+      "relationship_id": "rId5",
+      "part": "xl/worksheets/sheet5.xml"
+    },
+    "Option value": {
+      "sheet_id": "14",
+      "relationship_id": "rId6",
+      "part": "xl/worksheets/sheet6.xml"
+    },
+    "Synthetic rating": {
+      "sheet_id": "20",
+      "relationship_id": "rId7",
+      "part": "xl/worksheets/sheet7.xml"
+    },
+    "R& D converter": {
+      "sheet_id": "25",
+      "relationship_id": "rId8",
+      "part": "xl/worksheets/sheet8.xml"
+    },
+    "Operating lease converter": {
+      "sheet_id": "18",
+      "relationship_id": "rId9",
+      "part": "xl/worksheets/sheet9.xml"
+    },
+    "Cost of capital worksheet": {
+      "sheet_id": "19",
+      "relationship_id": "rId10",
+      "part": "xl/worksheets/sheet10.xml"
+    },
+    "Failure Rate worksheet": {
+      "sheet_id": "30",
+      "relationship_id": "rId11",
+      "part": "xl/worksheets/sheet11.xml"
+    },
+    "Country equity risk premiums": {
+      "sheet_id": "23",
+      "relationship_id": "rId12",
+      "part": "xl/worksheets/sheet12.xml"
+    },
+    "Industry Averages(US)": {
+      "sheet_id": "8",
+      "relationship_id": "rId13",
+      "part": "xl/worksheets/sheet13.xml"
+    },
+    "Industry Averages (Global)": {
+      "sheet_id": "26",
+      "relationship_id": "rId14",
+      "part": "xl/worksheets/sheet14.xml"
+    },
+    "Input Stat Distributioons": {
+      "sheet_id": "31",
+      "relationship_id": "rId15",
+      "part": "xl/worksheets/sheet15.xml"
+    },
+    "Trailing 12 month Worskheet": {
+      "sheet_id": "24",
+      "relationship_id": "rId16",
+      "part": "xl/worksheets/sheet16.xml"
+    },
+    "Answer keys": {
+      "sheet_id": "21",
+      "relationship_id": "rId17",
+      "part": "xl/worksheets/sheet17.xml"
+    }
+  },
+  "calc_settings": {
+    "calcId": "191029"
+  },
+  "permitted_calc_settings": {
+    "calcId": "any",
+    "iterate": null,
+    "iterateCount": "must-match",
+    "iterateDelta": "must-match",
+    "fullCalcOnLoad": "must-match",
+    "forceFullCalc": "must-match",
+    "calcMode": "must-match"
+  },
+  "defined_names": [],
+  "relationship_fingerprint": "0328821e097005980469f3c2634e1a52f69ee1767a5f4e6d48d6380392c77d4c",
+  "formula_fingerprints": {
+    "Input sheet": "36b7f3831a0cdcd17e85df41194316ba9367316dcac4ff9874985bb688fec3ac",
+    "Valuation output": "5d3299af7c8b34c338e68d1ec529d433165f691eea0c1167268bf805a2078656",
+    "Stories to Numbers": "6079247b18ed6efadbc5f3a128fdabe02407df0fef986722f61beae0ac6d8f89",
+    "Valuation as picture": "e785eaa72cdf506cecb9afa1dbd9058cfc76bd58b0375b1ae757b6a1ce733881",
+    "Diagnostics": "6d0fceceb9bccdbef83ce458b0dcf4f380e6075a25574ac301284be13463ab03",
+    "Option value": "97e2f7ddb52782c6826d13a3377399a25c2b21608baa763192f3e4dcccc43fa9",
+    "Synthetic rating": "bfb5a4c4518f5272a0575463b1a6d428fa999b51f8fb80a8b3fe324e97b7acd5",
+    "R& D converter": "f6cc93900a5a72d1466134c6ec7d086e5e0ae0eaf13c1bef307643c68ec54507",
+    "Operating lease converter": "a90aad4c6d91d7ffb1144e3d5e6f9be84bd6727388a3a22d8c3298ead3261888",
+    "Cost of capital worksheet": "b47284584245e43f3e6164a0ec1bc70e33940c3cbd44555604992f855f8a8473",
+    "Failure Rate worksheet": "bb41331c385747b035855db543b3a28bab3e8226bce2a71c662a7dfd7bf2b239",
+    "Country equity risk premiums": "291823388cad96cb4062ecfd422791c14280c93420f728128093d93385bd0a50",
+    "Industry Averages(US)": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "Industry Averages (Global)": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "Input Stat Distributioons": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "Trailing 12 month Worskheet": "f0ee563c804175bb2909b9111fc7fb21487c49f44fa240b6c0545ec5f9dc9bac",
+    "Answer keys": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  "formula_counts": {
+    "Input sheet": 37,
+    "Valuation output": 109,
+    "Stories to Numbers": 83,
+    "Valuation as picture": 176,
+    "Diagnostics": 33,
+    "Option value": 24,
+    "Synthetic rating": 9,
+    "R& D converter": 20,
+    "Operating lease converter": 18,
+    "Cost of capital worksheet": 170,
+    "Failure Rate worksheet": 13,
+    "Country equity risk premiums": 12,
+    "Industry Averages(US)": 0,
+    "Industry Averages (Global)": 0,
+    "Input Stat Distributioons": 0,
+    "Trailing 12 month Worskheet": 11,
+    "Answer keys": 0
+  },
+  "input_allowlist": [
+    "Input sheet!B11",
+    "Input sheet!B12",
+    "Input sheet!B13",
+    "Input sheet!B14",
+    "Input sheet!B15",
+    "Input sheet!B16",
+    "Input sheet!B17",
+    "Input sheet!B18",
+    "Input sheet!B19",
+    "Input sheet!B20",
+    "Input sheet!B21",
+    "Input sheet!B22",
+    "Input sheet!B23",
+    "Input sheet!B24",
+    "Input sheet!B26",
+    "Input sheet!B29",
+    "Input sheet!B30",
+    "Input sheet!B31",
+    "Input sheet!B34",
+    "Input sheet!B37",
+    "Input sheet!B38",
+    "Input sheet!B39",
+    "Input sheet!B40",
+    "Input sheet!B41",
+    "Input sheet!B45",
+    "Input sheet!B48",
+    "Input sheet!B49",
+    "Input sheet!B51",
+    "Input sheet!B52",
+    "Input sheet!B53",
+    "Input sheet!B54",
+    "Input sheet!B56",
+    "Input sheet!B57",
+    "Input sheet!B59",
+    "Input sheet!B61",
+    "Input sheet!B62",
+    "Input sheet!B64",
+    "Input sheet!B65",
+    "Input sheet!B67",
+    "Input sheet!B68",
+    "Input sheet!B70",
+    "Input sheet!B71",
+    "Input sheet!B72",
+    "Cost of capital worksheet!B11",
+    "Cost of capital worksheet!B12"
+  ],
+  "input_metadata": {
+    "Input sheet!B11": {
+      "meaning": "Historical revenues",
+      "unit": "currency; model currency, millions per workbook conventions",
+      "kind": "numeric",
+      "blank": "required"
+    },
+    "Input sheet!B12": {
+      "meaning": "Operating income or EBIT",
+      "unit": "currency; same scale as revenue",
+      "kind": "numeric",
+      "blank": "required"
+    },
+    "Input sheet!B13": {
+      "meaning": "Interest expense",
+      "unit": "currency; same scale as revenue",
+      "kind": "numeric",
+      "blank": "optional if model assumptions permit"
+    },
+    "Input sheet!B14": {
+      "meaning": "Book value of equity",
+      "unit": "currency; same scale as revenue",
+      "kind": "numeric",
+      "blank": "required"
+    },
+    "Input sheet!B15": {
+      "meaning": "Book value of debt",
+      "unit": "currency; same scale as revenue",
+      "kind": "numeric",
+      "blank": "required"
+    },
+    "Input sheet!B21": {
+      "meaning": "Shares outstanding",
+      "unit": "millions of shares",
+      "kind": "numeric",
+      "blank": "required"
+    },
+    "Input sheet!B22": {
+      "meaning": "Current stock price",
+      "unit": "currency/share",
+      "kind": "numeric",
+      "blank": "required"
+    },
+    "Input sheet!B23": {
+      "meaning": "Effective tax rate",
+      "unit": "fraction 0-1; B23 validation 0 to 1",
+      "kind": "numeric",
+      "blank": "required"
+    },
+    "Input sheet!B24": {
+      "meaning": "Marginal tax rate",
+      "unit": "fraction",
+      "kind": "numeric",
+      "blank": "required"
+    },
+    "Input sheet!B26": {
+      "meaning": "Next-year revenue growth rate",
+      "unit": "fraction",
+      "kind": "numeric",
+      "blank": "required"
+    },
+    "Input sheet!B29": {
+      "meaning": "Target pre-tax operating margin",
+      "unit": "fraction",
+      "kind": "numeric",
+      "blank": "required"
+    },
+    "Input sheet!B30": {
+      "meaning": "Year of margin convergence",
+      "unit": "years",
+      "kind": "numeric",
+      "blank": "required"
+    },
+    "Input sheet!B31": {
+      "meaning": "Sales to capital ratio, years 1-5",
+      "unit": "ratio",
+      "kind": "numeric",
+      "blank": "required"
+    },
+    "Input sheet!B34": {
+      "meaning": "Risk-free rate",
+      "unit": "fraction",
+      "kind": "numeric",
+      "blank": "required"
+    },
+    "Cost of capital worksheet!B11": {
+      "meaning": "Cost of capital method",
+      "kind": "switch",
+      "allowed": [
+        "I will input"
+      ],
+      "unsupported": [
+        "Detailed",
+        "Industry Average",
+        "Distribution"
+      ],
+      "blank": "required"
+    },
+    "Cost of capital worksheet!B12": {
+      "meaning": "Direct cost of capital input",
+      "unit": "fraction",
+      "kind": "numeric",
+      "blank": "required",
+      "only_when": "Cost of capital worksheet!B11=I will input"
+    }
+  },
+  "output_sheets": [
+    "Valuation output",
+    "Diagnostics"
+  ],
+  "active_outputs_by_branch": {
+    "direct_input": [
+      {
+        "cell": "Valuation output!B33",
+        "type": "numeric",
+        "required": true
+      },
+      {
+        "cell": "Valuation output!B35",
+        "type": "numeric",
+        "required": true
+      },
+      {
+        "cell": "Valuation output!B21",
+        "type": "numeric",
+        "required": true
+      },
+      {
+        "cell": "Valuation output!B24",
+        "type": "numeric",
+        "required": true
+      }
+    ],
+    "diagnostics": []
+  },
+  "branch_switches": {
+    "Cost of capital worksheet!B11": [
+      "I will input"
+    ],
+    "Input sheet!B16": [
+      "Yes",
+      "No"
+    ],
+    "Input sheet!B17": [
+      "Yes",
+      "No"
+    ],
+    "Input sheet!B37": [
+      "Yes",
+      "No"
+    ],
+    "Input sheet!B45": [
+      "Yes",
+      "No"
+    ],
+    "Input sheet!B48": [
+      "Yes",
+      "No"
+    ],
+    "Input sheet!B51": [
+      "Yes",
+      "No"
+    ],
+    "Input sheet!B53": [
+      "B",
+      "V"
+    ],
+    "Input sheet!B56": [
+      "Yes",
+      "No"
+    ],
+    "Input sheet!B59": [
+      "Yes",
+      "No"
+    ],
+    "Input sheet!B61": [
+      "Yes",
+      "No"
+    ],
+    "Input sheet!B64": [
+      "Yes",
+      "No"
+    ],
+    "Input sheet!B67": [
+      "Yes",
+      "No"
+    ],
+    "Input sheet!B70": [
+      "Yes",
+      "No"
+    ]
+  },
+  "required_inputs": [
+    "Input sheet!B11",
+    "Input sheet!B12",
+    "Input sheet!B14",
+    "Input sheet!B15",
+    "Input sheet!B21",
+    "Input sheet!B22",
+    "Input sheet!B24",
+    "Input sheet!B26",
+    "Input sheet!B29",
+    "Input sheet!B30",
+    "Input sheet!B31",
+    "Input sheet!B34",
+    "Cost of capital worksheet!B12",
+    "Input sheet!B23"
+  ],
+  "feature_policy": {
+    "required_part_hashes": {
+      "xl/comments1.xml": "f5b724cbe7d5b16502cdd19db23373c305c0f42bb89f64de718a5b69951c8f7d",
+      "xl/comments2.xml": "534c66b4c2d8d95b57aa1c3854ec37e93ca55dfa15cf991e2f833ff1d5f0dff9",
+      "xl/comments3.xml": "52708c54240c27e73edd222ce0c5de8669fdfd97dfef3f9c296d9d1185f22ca1",
+      "xl/comments4.xml": "5409fb15386f2e810dea568314904a7fab5b0ae778ca2e3a180b11c08affd5e6",
+      "xl/comments5.xml": "8e309baf067dbf265cf859fdb7f33adb40eff823161184ccaf87a7fe291cacae",
+      "xl/comments6.xml": "3dc03edc90206754005c5902c541a1e8c347bd93f20274d1c6f0e9a39d468e0e",
+      "xl/drawings/_rels/drawing1.xml.rels": "15a140b2ab9e3d49a7b49f824413744cc4959bc34c427cf50f7d6016697293c0",
+      "xl/drawings/drawing1.xml": "2ebb44ab7a3dcf7b756e658e755442ec95720714b8ad8671fa71cde132afa82c",
+      "xl/drawings/drawing2.xml": "d15e37787f8ae15438183452c81974d568b06570d21b966bd0f6882cd433a214",
+      "xl/drawings/vmlDrawing1.vml": "91c7b544796b3ea6f09584d27c6086c321fa657a822f60f9d64cc5cf7e398890",
+      "xl/drawings/vmlDrawing2.vml": "c8ad8d3d2edac2bdf850765c396496b14bc8568f925499ab4608f98cde02f7e2",
+      "xl/drawings/vmlDrawing3.vml": "83b19305e2d409d1abe7dad53dbdd8c0a04fa62e0d9d3c7316dc6ed44a1e859c",
+      "xl/drawings/vmlDrawing4.vml": "3c9767b0808a214715757946c5d60e0042f6a368519e61bd13d43375ec28cf52",
+      "xl/drawings/vmlDrawing5.vml": "7274733aada61849a684c7c6b098374771c53c9f9ac7155d3ab5d47c0aace762",
+      "xl/drawings/vmlDrawing6.vml": "a8cab9f05c5399525fc58a90eb43f969bdb5c796e2ece9b40e5b28d51edf7d37",
+      "xl/tables/table1.xml": "b09065270962d5e931752f942d7524a38537add1c26e0285e8c9e4869ed72d9f",
+      "xl/threadedComments/threadedComment1.xml": "6d78bbd19cddfd7b69ac1c27987bd4c8439f8b0ea113759644fcd25c5da349c2",
+      "xl/threadedComments/threadedComment2.xml": "b0059ffa0f4fc81d8771fc63ecdeaba4b650070b779a9922e69839a199a2094e",
+      "xl/threadedComments/threadedComment3.xml": "74b308ac01114db1e41023aa63c951e0214002586b62375de81d86b44ca00c84",
+      "xl/threadedComments/threadedComment4.xml": "ca955d9d67f0f3bfe76fb9262db22634e8251f6974917ece530875495007f232",
+      "xl/threadedComments/threadedComment5.xml": "b8dc94e54f1d727346ef377c912a07afb55f54de5460ff3fe416c06915a8c2c5",
+      "xl/threadedComments/threadedComment6.xml": "57e7aceda6d50e0c2a2b308c7af768e420d7f568a18737cda3519d15f83aafc9",
+      "xl/webextensions/_rels/taskpanes.xml.rels": "c2d95a9c9ac08613ee7ca29c3dd011b148435586f7b86d43312c57805ffa8706",
+      "xl/webextensions/taskpanes.xml": "86df3fde2aef173e7c9cf5c14a5687cb834831d4652093dbc37b093afa7c584e",
+      "xl/webextensions/webextension1.xml": "0d126ef0b9919a78c82568d1b8d06333395d3634a2b752fbae035b7beff7054b",
+      "xl/worksheets/_rels/sheet1.xml.rels": "148b385bc9bdc781305c8d987782a0a8ad2134989ee6759bc36fd7bad85fe1d0",
+      "xl/worksheets/_rels/sheet10.xml.rels": "122e8f4a3344c828179d45ddde0bd0a9f49733f9cbeb751d15e9b1be41fb9a0f",
+      "xl/worksheets/_rels/sheet12.xml.rels": "0ecc43b767c9e770f0435f421ace3c7f4195cbba8b2d50556f390deeb1928a14",
+      "xl/worksheets/_rels/sheet2.xml.rels": "8cbf659667dc36ce4ce997b47ab3ccbcee31e619e4909ecd7c03625203c7784b",
+      "xl/worksheets/_rels/sheet7.xml.rels": "2c6e62de6ad610bde866fc193c67d35025134e6ce10586bf0648d2063b43f2b2",
+      "xl/worksheets/_rels/sheet8.xml.rels": "3c71f7534f05c0db57e496dbc41b1ab6a691eefd4e1baafe6c00d5329846a41a",
+      "xl/worksheets/_rels/sheet9.xml.rels": "193907192512c94680fc998f05b2fe79daddd1bac1bbc684cfe319912c21fd4b",
+      "xl/calcChain.xml": "694c4a94fa4a549faef960befcaba56aa5e4bc05ac84ff784bb215bec1bda893",
+      "xl/media/image1.png": "47e0897a163a2c005ec043c6eca74b06e53c13c1d4a2a408d7d4115b47e1bfb1"
+    },
+    "permitted_missing_parts": [
+      "xl/calcChain.xml"
+    ],
+    "volatile_parts": [
+      "xl/calcChain.xml"
+    ],
+    "relationship_optional_types": [
+      "http://schemas.openxmlformats.org/officeDocument/2006/relationships/calcChain"
+    ],
+    "feature_prefixes": [
+      "xl/charts/",
+      "xl/drawings/",
+      "xl/tables/",
+      "xl/comments",
+      "xl/threadedComments/",
+      "xl/webextensions/",
+      "xl/externalLinks/"
+    ]
+  },
+  "protected_formulas": {},
+  "ambiguous_inputs": [
+    "Input sheet!B7:B9 are stale country/industry lookup selectors; not allowlisted for supported direct-input mode.",
+    "Input sheet!B35 is formula-linked output and explicitly marked Do not input.",
+    "Input sheet!B27,B28,B32,B35,B46 are formula cells, not editable inputs."
+  ],
+  "notes": "Formula hash/count inventories cover every formula cell in every sheet. Formula and package feature content must match; calcChain removal and calcId changes are Excel-permitted, but other calc/iteration settings must match. Supported valuation path is direct cost-of-capital input only; no industry/country lookup branch is supported. Values are cached only; no calculation or workbook writes.",
+  "static_cell_fingerprints": {
+    "Input sheet": "83f45546fae725a61d741499cc0a451144622405c59d40c0b44e66080379bf35",
+    "Valuation output": "d3a0017a1eda000d38c0f0f823b1d7c71af5f56a6c0a6cf0e394d483f340927e",
+    "Stories to Numbers": "2df6829648066bbdebeaa85ac944bb90d0014d33d80d3456f3730669a4bca18a",
+    "Valuation as picture": "97d4a6186ef93867ad8e58e3bf6c30ebc66d7d73c1153fff4f384c375568f6fe",
+    "Diagnostics": "b853cb14a549387501932b8b7639057c3ade7bb819e10521aa02ac204819c4dc",
+    "Option value": "7fd0bd1cba19a60a74361fd1048519a2968024c5fa4e1339da17141aebc84d32",
+    "Synthetic rating": "b4e2779002e0396e30a802e6e0a147517a005f73a8c153615804700bc1770aa3",
+    "R& D converter": "04d18b184f32931321b83a2566e525bed68a978a0e501373c06991dc603e244d",
+    "Operating lease converter": "7648d587d06fe71ceb9b9c2ead9229c16f68461ffe712f0f3dafde2d68e39c4e",
+    "Cost of capital worksheet": "8bffa61f6ab89f2abbe0bd8c12d320c01fced39608d94f3aa877eae356579fda",
+    "Failure Rate worksheet": "014276995c5d7e981820a6ed8983b1343ddeb5d5d4fd07fc26c9bb8253592b5f",
+    "Country equity risk premiums": "566b854b2dfa341ab8fcfc0520403e89e1a6c27dd380bacb6649ac9a61379ea6",
+    "Industry Averages(US)": "530e92812919e7b3d96e8a5af12132ea13c66f181f33e45b5cc1f5ad43b46227",
+    "Industry Averages (Global)": "dbd8b5c177db620d6217775883418895a71d2f24efd99187e92001ce3fbeac84",
+    "Input Stat Distributioons": "1767685bdc88444767b821d3dd1cb98598d48c918dafc34014c567c1e01b4cca",
+    "Trailing 12 month Worskheet": "b6bdecb1ea90a9447a07266276a6e518adeb92b027339c996e7df92db75fb5dc",
+    "Answer keys": "3b9c373ff3535a335ab8305408f3041cb880851dc27534eeb722c386404262c7"
+  },
+  "unsupported_switch_values": {
+    "Cost of capital worksheet!B11": [
+      "Detailed",
+      "Industry Average",
+      "Distribution"
+    ]
+  },
+  "conditional_diagnostics_by_branch": {
+    "direct_input": [],
+    "unsupported": []
+  },
+  "worksheet_metadata_fingerprints": {
+    "Input sheet": "086babd0908a9d101e04c0a3cf086a57ff639d32a49f6dc84faccf1be1aae85b",
+    "Valuation output": "97f01925579131f93751c3400143bd0bb2147653ae0b76d2e4e4378f7cdec2ba",
+    "Stories to Numbers": "a69b60cf6501a3429342a0c8df5827fc804d2f336b19e5943b523bf3d751a303",
+    "Valuation as picture": "4693952e11ca53e691dd7dee1fdc80a132cb08945df85568c96bb80fc2223b72",
+    "Diagnostics": "266ea0ab2e2fb3ab521b98bbacb09fcde47979184d17b48925620bbd92c3ee7b",
+    "Option value": "b506a2311b160773df02439ecadd984aefd30ac1f2ac8057dc8d49d31ba77b95",
+    "Synthetic rating": "4f59236496000c2cc5b39fc4c2d96c41880ebe795d4cd304cd39315d559ea511",
+    "R& D converter": "bfe9e9374b8c1187da0c6342ea90f8d97c2671eacbba0783d82202ff44ded3a7",
+    "Operating lease converter": "4766889068fe55ad12e00db356ae253854bb3463d181786acff5ad3b69a47f5d",
+    "Cost of capital worksheet": "c904647d23276cae07c4814eafeac0a03b6545cb18f00a29cb45b7a508472ff8",
+    "Failure Rate worksheet": "275211ec7432e1a100227bacd8a5ba915cdcf737a8f63e07cf1f3a439ccea4ce",
+    "Country equity risk premiums": "73280af01605efe6e1528b065bbc8ab903304ce00bd336d89a4db6364657791f",
+    "Industry Averages(US)": "dc441f4358dacbfee8683ab5fe3f934e91ce2e5b97b6fc4093a9fb6a08ad90f6",
+    "Industry Averages (Global)": "17546bd13e8a53e8ae7b5b6a1f47fbed1d949d459ff789a47145782ac87a0578",
+    "Input Stat Distributioons": "9822dda6f36adcb3d7b0eb0dc182dcb4b4dafa58348d073c3424daca384c3c48",
+    "Trailing 12 month Worskheet": "11787b046021a17267dc3bc933fe270e437e38f3f21b5c5e917df20c5bf7be84",
+    "Answer keys": "95431a7cf7042985f55a8160dc08a7cd14fe7bf0b3e7d545a683cf1428407efe"
+  },
+  "sheet_metadata": {
+    "Input sheet": {
+      "sheet_id": "11",
+      "state": "visible",
+      "relationship_id": "rId1",
+      "part": "xl/worksheets/sheet1.xml"
+    },
+    "Valuation output": {
+      "sheet_id": "13",
+      "state": "visible",
+      "relationship_id": "rId2",
+      "part": "xl/worksheets/sheet2.xml"
+    },
+    "Stories to Numbers": {
+      "sheet_id": "28",
+      "state": "visible",
+      "relationship_id": "rId3",
+      "part": "xl/worksheets/sheet3.xml"
+    },
+    "Valuation as picture": {
+      "sheet_id": "32",
+      "state": "visible",
+      "relationship_id": "rId4",
+      "part": "xl/worksheets/sheet4.xml"
+    },
+    "Diagnostics": {
+      "sheet_id": "12",
+      "state": "visible",
+      "relationship_id": "rId5",
+      "part": "xl/worksheets/sheet5.xml"
+    },
+    "Option value": {
+      "sheet_id": "14",
+      "state": "visible",
+      "relationship_id": "rId6",
+      "part": "xl/worksheets/sheet6.xml"
+    },
+    "Synthetic rating": {
+      "sheet_id": "20",
+      "state": "visible",
+      "relationship_id": "rId7",
+      "part": "xl/worksheets/sheet7.xml"
+    },
+    "R& D converter": {
+      "sheet_id": "25",
+      "state": "visible",
+      "relationship_id": "rId8",
+      "part": "xl/worksheets/sheet8.xml"
+    },
+    "Operating lease converter": {
+      "sheet_id": "18",
+      "state": "visible",
+      "relationship_id": "rId9",
+      "part": "xl/worksheets/sheet9.xml"
+    },
+    "Cost of capital worksheet": {
+      "sheet_id": "19",
+      "state": "visible",
+      "relationship_id": "rId10",
+      "part": "xl/worksheets/sheet10.xml"
+    },
+    "Failure Rate worksheet": {
+      "sheet_id": "30",
+      "state": "visible",
+      "relationship_id": "rId11",
+      "part": "xl/worksheets/sheet11.xml"
+    },
+    "Country equity risk premiums": {
+      "sheet_id": "23",
+      "state": "visible",
+      "relationship_id": "rId12",
+      "part": "xl/worksheets/sheet12.xml"
+    },
+    "Industry Averages(US)": {
+      "sheet_id": "8",
+      "state": "visible",
+      "relationship_id": "rId13",
+      "part": "xl/worksheets/sheet13.xml"
+    },
+    "Industry Averages (Global)": {
+      "sheet_id": "26",
+      "state": "visible",
+      "relationship_id": "rId14",
+      "part": "xl/worksheets/sheet14.xml"
+    },
+    "Input Stat Distributioons": {
+      "sheet_id": "31",
+      "state": "visible",
+      "relationship_id": "rId15",
+      "part": "xl/worksheets/sheet15.xml"
+    },
+    "Trailing 12 month Worskheet": {
+      "sheet_id": "24",
+      "state": "visible",
+      "relationship_id": "rId16",
+      "part": "xl/worksheets/sheet16.xml"
+    },
+    "Answer keys": {
+      "sheet_id": "21",
+      "state": "visible",
+      "relationship_id": "rId17",
+      "part": "xl/worksheets/sheet17.xml"
+    }
+  },
+  "conditional_required_inputs": [
+    {
+      "when": "Input sheet!B37",
+      "equals": "Yes",
+      "inputs": [
+        "Input sheet!B38",
+        "Input sheet!B39",
+        "Input sheet!B40",
+        "Input sheet!B41"
+      ]
+    },
+    {
+      "when": "Input sheet!B45",
+      "equals": "Yes",
+      "inputs": [
+        "Input sheet!B46"
+      ]
+    },
+    {
+      "when": "Input sheet!B48",
+      "equals": "Yes",
+      "inputs": [
+        "Input sheet!B49"
+      ]
+    },
+    {
+      "when": "Input sheet!B51",
+      "equals": "Yes",
+      "inputs": [
+        "Input sheet!B52",
+        "Input sheet!B53",
+        "Input sheet!B54"
+      ]
+    },
+    {
+      "when": "Input sheet!B56",
+      "equals": "Yes",
+      "inputs": [
+        "Input sheet!B57"
+      ]
+    },
+    {
+      "when": "Input sheet!B61",
+      "equals": "Yes",
+      "inputs": [
+        "Input sheet!B62"
+      ]
+    },
+    {
+      "when": "Input sheet!B64",
+      "equals": "Yes",
+      "inputs": [
+        "Input sheet!B65"
+      ]
+    },
+    {
+      "when": "Input sheet!B67",
+      "equals": "Yes",
+      "inputs": [
+        "Input sheet!B68"
+      ]
+    },
+    {
+      "when": "Input sheet!B70",
+      "equals": "Yes",
+      "inputs": [
+        "Input sheet!B71",
+        "Input sheet!B72"
+      ]
+    }
+  ]
+}
