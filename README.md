@@ -9,12 +9,24 @@ It illustrates the implementation and evidence-control practices used for the
 project, and it deliberately stops short of the fully functional private
 version.
 
+Eventual Goal: A fully automated valuation system: from collecting SEC filings 
+from target company, to conducting rigourous due diligence through independent 
+research, to generating defensible assumptions that feed into a valuation 
+worksheet, to writing a report detailing and defending the choices taken. 
+This does not mean to replace human judgment, but to augment it by generating
+a first level overview to be contested and reviewed by a human analyst. 
+Investors may also use this to quickly screen for potential investments.
+
+Current status: The repository can collect SEC filings and process information
+to be filed in the valuation worksheet. However, the scaffold needs manual
+confirmation of data validity, and forward looking assumptions are formed
+through general industry trends and guidance without complex research.
+
 ## What this repository is
 
-* A portable Python codebase that reads an **optional, separately downloaded**
-  valuation template (a workbook), validates its structure against pinned
-  fingerprints, and writes prepared review/workbook copies without invoking a
-  spreadsheet engine.
+* A portable Python codebase that reads from Damodaran's valuation template,
+  validates its structure against pinned fingerprints, and writes prepared
+  review/workbook copies to generate a valuation
 * A test suite that runs on a clean clone for the pure-logic and synthetic
   parts, and that explicitly skips the workbook/policy-dependent integration
   tests when the private inputs are not present.
