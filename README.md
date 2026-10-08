@@ -26,7 +26,7 @@ through general industry trends and guidance without complex research.
 
 * A portable Python codebase that reads from Damodaran's valuation template,
   validates its structure against pinned fingerprints, and writes prepared
-  review/workbook copies to generate a valuation
+  review/workbook copies to generate a valuation.
 * A test suite that runs on a clean clone for the pure-logic and synthetic
   parts, and that explicitly skips the workbook/policy-dependent integration
   tests when the private inputs are not present.
